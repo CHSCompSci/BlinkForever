@@ -14,7 +14,7 @@ void setup() {
 
 // the loop routine runs over and over again
 void loop() {
-  for (int i = 1; i < 101; i++) { // Change "i < 100" for the number you want
+  for (int i = 1; i < 101; i++) { // Sets the amount of times the LED should turn ON and OFF 
     digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
     delay(1000);               // wait for a second
     digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
